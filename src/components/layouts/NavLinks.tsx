@@ -11,9 +11,11 @@ export interface LinksInterface {
 const NavLinks = () => {
     const menuLinks: LinksInterface[] = [
         { label: "Home", path: "/" },
-        { label: "Vehicles", path: "/vehicles" },
         { label: "About", path: "/about" },
-        { label: "Contacts", path: "/contact" }
+        { label: "Services", path: "/services" },
+        { label: "Cars", path: "/cars" },
+        { label: "Contacts", path: "/contact" },
+        { label: "Team", path: "/team" }
     ]
     return (
         <>

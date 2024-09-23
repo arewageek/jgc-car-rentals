@@ -7,8 +7,8 @@ const AboutUs = () => {
     return (
         <div className='py-10 lg:py-24 px-5'>
             <div className='w-full flex flex-col lg:flex-row items-center justify-center gap-4 lg:w-[60vw] '>
-                <div className='w-full lg:w-3/5'>
-                    <span className='text-[9px] font-medium uppercase text-accent-100 tracking-widest'>
+                <div className='w-full lg:w-3/5 flex flex-col gap-y-2'>
+                    <span className='text-[10px] font-medium uppercase text-accent-100 tracking-[6pt]'>
                         Jibhausy Global Concepts
                     </span>
                     <h2 className='font-extrabold text-2xl lg:text-3xl text-white'>

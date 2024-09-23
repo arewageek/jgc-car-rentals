@@ -9,6 +9,10 @@
   background-attachment: fixed;
 }
 
+.pages-hero-services {
+  background-image: url("/car-1.jpg");
+}
+
 @layer components {
   body {
     @apply bg-base-100;
@@ -80,5 +84,9 @@
   }
   .hl {
     @apply text-accent-100;
+  }
+
+  .transparent-form-inputs {
+    @apply bg-transparent rounded-xl text-gray-200/60 font-medium text-sm px-2 py-6 lg:py-3;
   }
 }
