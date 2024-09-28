@@ -1,5 +1,3 @@
-import CTAVideo from '@/components/Public/CTAVideo'
-
 import CarVideoSection from '@/components/Public/CarVideoSection'
 import BookAutoRental from '@/components/Public/services/BookAutoRental'
 import ServicesGrid from '@/components/Public/services/ServicesGrid'
@@ -7,7 +5,8 @@ import WhatWeDo from '@/components/Public/services/WhatWeDo'
 import { PageHeader2 } from '@/components/layouts/PageHeader'
 import React from 'react'
 
-const ServicesPage = () => {
+const ServicesPage = async () => {
+
     return (
         <div>
             <PageHeader2 titleHighlight='Our' highlight='Services' title='WHAT WE DO' classes="pages-hero-services" />

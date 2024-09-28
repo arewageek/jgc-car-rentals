@@ -2,13 +2,13 @@
 import type { ServiceInterface } from './ServicesGrid'
 
 
-const SingleService = ({ title, desc, index }: ServiceInterface) => {
+const SingleService = ({ title, description, index }: { title: string, description: string, index: number }) => {
     return (
         <div className='rounded-2xl bg-base-300 text-gray-400 group cursor-pointer'>
             <div className='py-8 lg:py-16 px-4 lg:px-8'>
                 <h3 className='text-2xl font-bold text-white'>{title}</h3>
                 <p className='text-[10pt] text-gray-400 mt-4'>
-                    {desc}
+                    {description}
                 </p>
             </div>
             <div className='w-full mt-4 relative pt-10'>

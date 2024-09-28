@@ -1,7 +1,10 @@
 import React from 'react'
 import Button from '../form/Button'
-import { Check, CheckIcon } from 'lucide-react'
+import { Check, CheckCheck, CheckIcon } from 'lucide-react'
 import { FaCheck, FaPlay } from 'react-icons/fa'
+import { BiCheck } from 'react-icons/bi'
+import CheckSVG from '../svg/CheckSVG'
+import Image from 'next/image'
 
 const AboutUs = () => {
     return (
@@ -22,8 +25,8 @@ const AboutUs = () => {
                     </p>
                     <div className='text-white/70 text-xs mt-5 flex-col flex gap-y-2'>
                         <div className='flex items-center gap-x-4 '>
-                            <div className='h-6 w-6 flex items-center justify-center bg-accent-50/10 p-3.5 rounded-full text-accent-100'>
-                                <FaCheck />
+                            <div className=' flex items-center justify-center bg-accent-50/10 p-1.5 rounded-full text-accent-100'>
+                                <Image src="/icons/check.svg" height={15} width={15} alt='check icon' />
                             </div>
                             <div>
                                 Sports and Luxury Cars
@@ -31,8 +34,8 @@ const AboutUs = () => {
                         </div>
 
                         <div className='flex items-center gap-x-4 '>
-                            <div className='h-6 w-6 flex items-center justify-center bg-accent-50/10 p-3.5 rounded-full text-accent-100'>
-                                k
+                            <div className=' flex items-center justify-center bg-accent-50/10 p-1.5 rounded-full text-accent-100'>
+                                <Image src="/icons/check.svg" height={15} width={15} alt='check icon' />
                             </div>
                             <div>
                                 Economy Cars
