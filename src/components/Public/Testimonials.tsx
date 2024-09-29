@@ -4,16 +4,16 @@ import SingleTestimonial, { TestimonialProp } from './SingleTestimonial'
 
 const reviews: TestimonialProp[] = [
     {
-        comment: "Came in for walk-in inspection and oil change. Brown is delight to deal with. He took my car right in, and completed work in a short time. Highly recommend the shop.",
-        name: "Sandra Ikeh", job: "Customer", stars: 2.5
+        comment: "Renting from Jibhausy Global Concepts was a breeze! Their website was easy to navigate, and the booking process was seamless. The car was clean and in excellent condition. I would definitely recommend them to anyone looking for a reliable car rental service.",
+        name: "Amina Bello", job: "Customer", stars: 5
     },
     {
-        comment: "Came in for walk-in inspection and oil change. Brown is delight to deal with. He took my car right in, and completed work in a short time. Highly recommend the shop.",
-        name: "Frank Ikechukwu", job: "Realtor", stars: 4.5
+        comment: "I was very impressed with the customer service at Jibhausy Global Concepts. The staff were friendly and helpful, and they went above and beyond to ensure I had a great experience. The car I rented was perfect for my trip, and I had no issues at all.",
+        name: " David Oluwaseun", job: "Marketing Manager", stars: 4.5
     },
     {
-        comment: "Came in for walk-in inspection and oil change. Brown is delight to deal with. He took my car right in, and completed work in a short time. Highly recommend the shop.",
-        name: "Steven Pete", job: "Customer", stars: 5
+        comment: "Jibhausy Global Concepts offered the best value for money compared to other car rental companies I researched. The rental process was straightforward, and the car was exactly as described. I will definitely be using their services again in the future.",
+        name: "Chioma Okoye", job: "Teacher", stars: 5
     }
 ]
 

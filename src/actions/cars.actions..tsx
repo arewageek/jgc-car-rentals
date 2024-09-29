@@ -26,6 +26,7 @@ export async function createCar(data: TCar): Promise<"success" | "unknownError">
 }
 
 export async function fetchCars(): Promise<{ status: 200 | 404 | 500, cars?: ICar[] }> {
+    connectMongoDB()
     try {
         const cars = await Cars.find();
         if (!cars) return { status: 404 }

@@ -15,13 +15,12 @@ const NavLinks = () => {
         { label: "Services", path: "/services" },
         { label: "Cars", path: "/cars" },
         { label: "Contacts", path: "/contact" },
-        { label: "Team", path: "/team" }
     ]
     return (
         <>
             {
                 menuLinks.map((link => (
-                    <Link key={link.label} href={link.path} className='text-gray-50 hover:text-white transition cursor-pointer'>
+                    <Link key={link.label} href={link.path} className='cursor-pointer'>
                         {link.label}
                     </Link>
                 )))

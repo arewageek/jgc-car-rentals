@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 import NavLinks from './NavLinks'
+import { PiHamburgerLight } from 'react-icons/pi'
+import Image from 'next/image'
+import MobileMenu from './MobileMenu'
 
 const AppBar = () => {
   return (
@@ -10,8 +13,13 @@ const AppBar = () => {
           Logo
         </Link>
 
-        <div className='w-full flex items-center justify-end space-x-3'>
+        <div className='w-full lg:flex items-center justify-end space-x-3 hidden'>
           <NavLinks />
+        </div>
+        <div className='lg:hidden'>
+          <div className='flex items-center justify-end'>
+            <MobileMenu />
+          </div>
         </div>
       </nav>
     </div>
