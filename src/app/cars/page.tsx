@@ -1,22 +1,9 @@
-import { TCar, fetchCars } from '@/actions/cars.actions.'
+import { fetchCars } from '@/actions/cars.actions.'
 import SingleCarBlock from '@/components/Public/cars/SingleCarBlock'
 import BookAutoRental from '@/components/Public/services/BookAutoRental'
-import AddCars from '@/components/form/test/AddCars'
 import { PageHeader2 } from '@/components/layouts/PageHeader'
-import { Button } from '@/components/ui/button'
 import { ICar } from '@/models/cars'
 import React from 'react'
-
-// export interface TCar {
-//     image: string, name: string, passengers: number, cost: number, id: string, type: "auto" | "manual"
-// }
-
-// [
-//     { image: "/1.jpg", name: "Lamborghini Urus", seats: 5, type: "auto", dailyCost: 200, id: '' },
-//     { image: "/1.jpg", name: "Aston Martin DBX", seats: 5, type: "auto", dailyCost: 200, id: '' },
-//     { image: "/1.jpg", name: "Bugatti Mistral W16", seats: 5, type: "auto", dailyCost: 200, id: '' },
-//     { image: "/1.jpg", name: "Bentley Bentayga", seats: 5, type: "auto", dailyCost: 200, id: '' },
-// ]
 
 
 const CarsPage = async () => {

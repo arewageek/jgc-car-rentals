@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionHeader from '../layouts/SectionHeader'
 import RequestRideStep from './RequestRideStep'
-import { FaInfo, FaInfoCircle } from 'react-icons/fa'
+import { FaInfoCircle } from 'react-icons/fa'
 
 interface StepsInterface {
     title: string,

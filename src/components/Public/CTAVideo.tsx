@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import { Play } from 'lucide-react'
 
 const CTAVideo = () => {

@@ -1,7 +1,5 @@
 import React from 'react'
 import SingleService from './SingleService'
-import { fetchServices } from '@/actions/services.actions'
-import Services from '@/models/services'
 
 export interface ServiceInterface {
     title: string,

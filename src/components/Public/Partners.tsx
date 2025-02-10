@@ -1,5 +1,4 @@
 import React from 'react'
-import SectionContainer from '../layouts/SectionContainer'
 import EachPartner from './EachPartner'
 
 interface PartnersInterface {

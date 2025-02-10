@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 import NavLinks from './NavLinks'
-import { PiHamburgerLight } from 'react-icons/pi'
-import Image from 'next/image'
 import MobileMenu from './MobileMenu'
 
 const AppBar = () => {

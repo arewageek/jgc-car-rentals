@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import { CgArrowTopRight } from 'react-icons/cg'
 import { FaFacebook, FaTiktok, FaTwitter } from 'react-icons/fa'
-import { FaX } from 'react-icons/fa6'
 
 const socials = [
     { platform: "facebook", icon: <FaFacebook />, link: "#" },

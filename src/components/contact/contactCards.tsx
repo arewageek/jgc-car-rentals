@@ -2,7 +2,6 @@ import { Clock10Icon, PhoneCall } from 'lucide-react'
 import React from 'react'
 import { FaEnvelope } from 'react-icons/fa'
 import { FaLocationPin } from 'react-icons/fa6'
-import { TfiEmail } from 'react-icons/tfi'
 
 interface IContactCard { icon: any, title: string, details: string }
 
